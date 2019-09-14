@@ -17,7 +17,7 @@ body {
 }
 
 .adizya-font{
-    font-family: Expressa;
+    font-family: Expressa !important;
 }
 
 article,

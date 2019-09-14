@@ -1,12 +1,12 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'Expressa';
+    font-family: 'adizya';
     src: url("../../fonts/Expressa-DemiBold.ttf") format("truetype"),
   }
 
 html {
-    font-family: sans-serif;
+    font-family: 'adizya';
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-size: 16px;
@@ -17,7 +17,7 @@ body {
 }
 
 .adizya-font{
-    font-family: 'Expressa' !important;
+    font-family: 'adizya' !important;
 }
 
 article,
@@ -300,7 +300,7 @@ body.is-in .js-spiral-overlay rect {
 }
 
 h1 {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     letter-spacing: .02em;
@@ -308,14 +308,14 @@ h1 {
 }
 
 h2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     margin: 0;
 }
 
 h3 {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 2rem;
     font-style: normal;
     font-weight: 500;
@@ -324,7 +324,7 @@ h3 {
 }
 
 h4 {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: .93rem;
     font-style: normal;
     line-height: 1.15;
@@ -340,7 +340,7 @@ h4 {
 }
 
 h5 {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: .9rem;
     line-height: 1.15;
     font-style: normal;
@@ -356,11 +356,11 @@ blockquote {
 }
 
 label {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 button {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     letter-spacing: .05rem;
@@ -377,7 +377,7 @@ button:hover {
 }
 
 input {
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     border: none;
@@ -4264,7 +4264,7 @@ body.is-firefox .js-view-icon {
 }
 
 .System-font {
-    font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .l-s-s {
@@ -9671,7 +9671,7 @@ html {
 
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'adizya', "Roboto", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     -webkit-overflow-scrolling: touch;
     will-change: background;
 }

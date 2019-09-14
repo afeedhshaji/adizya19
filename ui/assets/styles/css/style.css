@@ -248,7 +248,7 @@ body:after {
     top: 0;
     width: 100%;
     height: 100%;
-    background: #f11b1b;
+    background: #000;
     z-index: 400;
 }
 

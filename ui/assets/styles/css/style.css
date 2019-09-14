@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: "Expressa";
-    src: url("../../fonts/Expressa-DemiBold.ttf"),
+    font-family: 'Expressa';
+    src: url("../../fonts/Expressa-DemiBold.ttf") format("truetype"),
   }
 
 html {
@@ -17,7 +17,7 @@ body {
 }
 
 .adizya-font{
-    font-family: Expressa !important;
+    font-family: 'Expressa' !important;
 }
 
 article,

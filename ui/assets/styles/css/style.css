@@ -4454,6 +4454,10 @@ body.is-firefox .js-view-icon {
         font-size: 2rem;
         line-height: 1.25;
     }
+    .ms-f-s-llxl {
+        font-size: 2.2rem;
+        line-height: 1.25;
+    }
     .ms-f-s-lxl {
         font-size: 2.35vw;
         line-height: 1.25;

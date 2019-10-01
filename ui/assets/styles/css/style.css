@@ -9649,8 +9649,16 @@ button.bg-white-20:hover {
     background: #271325;
 }
 
+.bg-grid2 {
+    background: #271325;
+}
+
 .color-grid {
     color: #FB6247;
+}
+
+.color-grid2 {
+    color: #db75c5;
 }
 
 .bg-friends {

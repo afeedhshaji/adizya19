@@ -32,6 +32,8 @@ html {
 }
 body {
   margin: 0;
+  height: 100%;
+  width: 100%;
 }
 a:focus {
   outline: thin dotted;
@@ -383,9 +385,10 @@ main {
 
 .grid {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto;
   padding-bottom: 10rem;
+  padding-top: 0px !important;
 }
 
 .grid__item {
@@ -679,15 +682,9 @@ main {
 
 @media screen and (min-width: 80em) {
   .grid {
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: repeat(3, 33.3%);
   }
-  .grid__item:nth-child(4n-2) {
-    margin-top: -8rem;
-    margin-bottom: 8rem;
-  }
-  .grid__item:nth-child(4n) {
-    margin-top: -5rem;
-  }
+
   .box {
     margin: 6rem 4.5rem;
   }

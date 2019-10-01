@@ -356,3 +356,44 @@
     // Preload all the images in the page..
     imagesLoaded(document.querySelectorAll('.box__img'), () => document.body.classList.remove('loading'));
 }
+
+
+// returns a card append it to grid to form a card
+function createCard() {
+  let gridItem = e("A", "", ["gird__item"]);
+  gridItem.href = "#preview-15";
+
+  let box = e("DIV", "", ["box"]);
+  gridItem.appendChild(box);
+
+  let boxShadow = e("DIV", "", ["box__shadow"]);
+  box.appendChild(boxShadow);
+
+  let boxImg = e("IMG", "", ["box__img"]);
+  boxImg.src = "https://res.cloudinary.com/duz0m03mq/image/upload/v1568449407/Adizya%20%2719/adizya_pictionary_pxpgeh.jpg";
+  boxImg.alt = "Some image";
+  box.appendChild(boxImg);
+
+  let boxText = e("H4", "", ["box__text"]);
+  box.appendChild(boxText);
+
+  let boxTextInner = e("SPAN", "OBSCURA", ["box__text-inner"]);
+  boxText.appendChild(boxTextInner);
+
+  let boxDeco = e("DIV", "&#10014;", ["box__deco"]);
+  box.appendChild(boxDeco);
+
+  let boxContent = e("P", "\"Sometimes we go surfing when it's stormy weather\"", ["box__content"]);
+  box.appendChild(boxContent);
+
+  return gridItem;
+}
+
+function e(type, content, classNames) {
+  let el = document.createElement(type);
+  el.innerHTML = content;
+  classNames && classNames.forEach(function (className) {
+    el.classList.add(className);
+  });
+  return el;
+}

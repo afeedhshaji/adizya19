@@ -9614,7 +9614,7 @@ button.bg-white-20:hover {
 }
 
 .bg-got {
-    background: #2f3436;
+    background: #271325;
 }
 
 .color-got {
@@ -9653,6 +9653,10 @@ button.bg-white-20:hover {
     background: #271325;
 }
 
+.bg-grid3{
+    background: #f9e090;
+}
+
 .color-grid {
     color: #FB6247;
 }
@@ -9660,6 +9664,11 @@ button.bg-white-20:hover {
 .color-grid2 {
     color: #db75c5;
 }
+
+.color-grid3 {
+    color: 2C2435;
+}
+
 
 .bg-friends {
     background: #FB6247;
@@ -9672,6 +9681,8 @@ button.bg-white-20:hover {
 .color-spent {
     color: #dbd1b7;
 }
+
+
 
 /* CSS Document */
 

@@ -9750,3 +9750,22 @@ li {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.jconfirm-holder{
+    width: 500px !important;
+    margin: 0px auto;
+}
+
+.jconfirm-content{
+    color: #000;
+}
+
+.jconfirm-title{
+    color: #000;
+}
+
+@media(max-width:500px){
+    .jconfirm-holder{
+        width: 300px !important;
+    }
+}

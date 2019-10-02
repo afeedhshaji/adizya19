@@ -9441,7 +9441,8 @@ body.is-firefox .js-view-icon {
 }
 
 .bg-cash {
-    background: #25cb50;
+    /* background: #25cb50; */
+    background: #f6cd61;
 }
 
 .bg-dark {
@@ -9618,7 +9619,7 @@ button.bg-white-20:hover {
 }
 
 .color-got {
-    color: #E52127;
+    color: #fe8a71;
 }
 
 .bg-prometheus {

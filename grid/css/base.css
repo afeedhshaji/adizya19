@@ -426,7 +426,7 @@ main {
 .box__text {
   margin: 0;
   position: absolute;
-  top: -6rem;
+  top: -5rem;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.15rem;

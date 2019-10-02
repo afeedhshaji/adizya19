@@ -497,10 +497,11 @@ main {
   width: 100%;
   height: 100vh;
   position: fixed;
+  padding-top: 20px;
   top: 0;
   left: 0;
   z-index: 1000;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .overlay--open {
@@ -520,8 +521,9 @@ main {
 
 .overlay__item {
   width: 100%;
-  height: 100vh;
   position: absolute;
+  margin-top: 0px !important;
+  /* overflow: scroll !important; */
   top: 0;
   left: 0;
   background: #ececec;
@@ -535,7 +537,6 @@ main {
 
 .overlay__item .box {
   max-width: 600px;
-  max-height: 100%;
   margin: 0;
 }
 

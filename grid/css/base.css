@@ -217,6 +217,7 @@ table {
   justify-content: center;
   padding: 1em;
   text-align: center;
+  z-index: 999;
 }
 
 .btn:hover {
@@ -565,7 +566,7 @@ main {
 .overlay__content {
   font-size: 1.8rem !important;
   line-height: 1.5;
-  max-width: 25rem;
+  max-width: 30rem;
   margin: 1rem 0 0 10vw;
 }
 

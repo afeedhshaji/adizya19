@@ -705,3 +705,28 @@ main {
     margin: 0;
   }
 }
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #ececec;
+  z-index: 999;
+  transition: opacity 500ms ease-in-out;
+}
+.loading img {
+  width: 300px;
+  max-width: 500px;
+}
+
+@media (max-width: 500px) {
+  .loading img {
+    width: 180px;
+  }
+}

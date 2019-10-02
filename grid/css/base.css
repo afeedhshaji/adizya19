@@ -520,7 +520,7 @@ main {
 }
 
 .overlay__item {
-  width: 100%;
+  max-width: 100%;
   position: absolute;
   margin-top: 0px !important;
   /* overflow: scroll !important; */

@@ -217,7 +217,7 @@ table {
   justify-content: center;
   padding: 1em;
   text-align: center;
-  z-index: 999;
+  z-index: 99;
 }
 
 .btn:hover {

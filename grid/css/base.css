@@ -715,7 +715,7 @@ main {
   left: 0;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow: hidden !important;
   background-color: #ececec;
   z-index: 999;
   transition: opacity 500ms ease-in-out;

@@ -380,7 +380,7 @@ main {
   margin: 0;
   line-height: 1;
   position: absolute;
-  z-index: 100;
+  z-index: 50;
 }
 
 .box__title-inner {
@@ -558,6 +558,7 @@ main {
   margin: 1rem;
   padding: 1rem;
   opacity: 0;
+  z-index: 9999999;
 }
 
 .overlay__close:focus {

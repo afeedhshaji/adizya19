@@ -9449,6 +9449,15 @@ body.is-firefox .js-view-icon {
     /* background: #25cb50; */
     background: #f6cd61;
 }
+.white-imp{
+    color: #fff !important;
+}
+
+.bg-cash-smart {
+    /* background: #25cb50; */
+    background: #000;
+}
+
 
 .bg-dark {
     background: #151A1E;

@@ -360,15 +360,43 @@ main {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-  padding-bottom: 10rem;
+  /* padding-bottom: 10rem; */
   padding-top: 0px !important;
 }
 
+.grid2 {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-top: 0px !important;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.grid3 {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-top: 0px !important;
+  text-align: center;
+  font-size: 1.5rem;
+}
 .grid__item {
   display: flex;
   justify-content: center;
-  margin: 0 0 10rem 0;
+  margin: 0 0 1rem 0;
   cursor: pointer;
+}
+.grid__item2 {
+  display: flex;
+  flex-direction: column !important;
+  justify-content: left;
+  margin: 0 0 0 0;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 2rem !important;
 }
 
 .box {
@@ -582,8 +610,23 @@ main {
     display: grid;
     align-items: center;
     padding: 3rem 3rem 15rem 3rem;
+    padding-bottom: 0px !important;
     grid-row-gap: 2rem;
     grid-template-columns: repeat(3, calc(100% / 3));
+  }
+  .grid2 {
+    display: grid;
+    align-items: center;
+    padding: 3rem 3rem 15rem 3rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: repeat(1, calc(100%));
+  }
+  .grid3 {
+    display: grid;
+    align-items: center;
+    padding: 3rem 3rem 15rem 3rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: repeat(2, calc(100% / 2));
   }
   .grid__item {
     margin: 0;
@@ -738,10 +781,52 @@ main {
   font-size: 4rem;
   padding-right: 50px;
 }
+.main-heading2 {
+  /* margin: 0px auto !important; */
+  margin-right: 0px;
+  margin-left: auto;
+  font-size: 4rem;
+  padding-right: 50px;
+}
 
 @media (max-width: 500px) {
   .main-heading {
     padding: 0px !important;
     margin: 0px auto;
+    text-align: center;
   }
+  .main-heading2 {
+    font-size: 3rem;
+    padding: 0px !important;
+    margin: 0px auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid2 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+.red-cust {
+  color: #e3403a;
+  transition: 0.3s ease-in-out;
+}
+
+.marg-cust {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 500px) {
+  .grid__item2 {
+    margin-bottom: 5rem !important;
+  }
+}
+
+.center-cust {
+  margin: 0px auto;
+  text-align: center;
+  font-size: 3rem !important;
 }
